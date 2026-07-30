@@ -16,7 +16,7 @@ cask "loro" do
   # the app downloads the one you pick on first use, verified by SHA-256
   # (ADR-0006), so the install stays light.
   depends_on formula: ["whisper-cpp", "ffmpeg"]
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "Loro.app"
