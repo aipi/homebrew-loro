@@ -3,8 +3,8 @@
 # the tap repo (aipi/homebrew-loro) as Casks/loro.rb. Do not edit the tap copy
 # by hand — it is overwritten on every release.
 cask "loro" do
-  version "0.17.0"
-  sha256 "ddb283f167a5a9ac69277814649224b700d1fbb651d68e83b84480169840fe5f"
+  version "0.18.0"
+  sha256 "bc4d7c0f523b3d9226ec626d49d97ebf9ba817e59bdd90227d30b8f94df11d4b"
 
   url "https://github.com/aipi/loro/releases/download/v#{version}/Loro_#{version}_aarch64.dmg"
   name "Loro"
